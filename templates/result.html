@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Result — LegalEase</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Simplified Text</h1>
+      <section class="card">
+        <h2>Original</h2>
+        <pre>{{ original }}</pre>
+      </section>
+
+      <section class="card">
+        <h2>Simplified</h2>
+        <pre>{{ simplified }}</pre>
+      </section>
+
+  <p><a href="{{ url_for('index') }}" class="link">Back</a></p>
+    </main>
+  </body>
+</html>
